@@ -3,8 +3,8 @@ import CardFirst from "../ui/second-section/card-first";
 
 const SecondPart = () => {
 	return (
-		<div className="min-h-screen bg-primary-white justify-start items-center py-16 flex flex-col space-y-10">
-			<div className="flex items-center gap-2 bg-muted w-fit rounded-full px-4 py-2">
+		<div className=" justify-start items-center flex flex-col space-y-10 pt-12 ">
+			<div className="flex items-center gap-2 bg-muted w-fit rounded-full px-4">
 				<span>
 					<StarIcon />
 				</span>
@@ -13,7 +13,7 @@ const SecondPart = () => {
 				</p>
 			</div>
 
-			<h2 className="text-4xl  font-semibold text-center leading-tight">
+			<h2 className="text-2xl lg:text-4xl  font-semibold text-center leading-tight">
 				<span> From information to insight </span>
 				<br />
 				<span className="text-primary-blue font-playfair  italic">

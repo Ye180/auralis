@@ -1,6 +1,7 @@
 import Header from "@/components/layout/header";
 import { default as Hero } from "@/components/layout/hero";
-import SecondPart from "@/components/layout/second-part";
+import { default as SecondPart } from "@/components/layout/second-part";
+import ThirdPart from "@/components/layout/third-part";
 
 const Home = () => {
 	return (
@@ -8,6 +9,7 @@ const Home = () => {
 			<Header />
 			<Hero />
 			<SecondPart />
+			<ThirdPart />
 		</div>
 	);
 };

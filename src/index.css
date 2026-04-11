@@ -105,7 +105,7 @@
 		@apply border-border outline-ring/50;
 	}
 
-	@media (max-width: 1024px) {
+	/* @media (max-width: 1024px) {
 		html {
 			font-size: 62.5%;
 		}
@@ -115,7 +115,7 @@
 		html {
 			font-size: 7px;
 		}
-	}
+	} */
 }
 
 @theme inline {
