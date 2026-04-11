@@ -1,7 +1,10 @@
+
+
 export const NavItem = [
     {
         name: "How it Works",
         href: "/",
+
     },
     {
         name: "Features",
