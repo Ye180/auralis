@@ -26,40 +26,11 @@ export function ChartAreaDefault({ className }: { className?: string }) {
 	return (
 		<Card
 			className={cn(
-				"backdrop-blur-sm bg-[#ffffff1a] rounded-3xl border border-primary-white",
+				"backdrop-blur-sm bg-[#ffffff1a] rounded-3xl border border-primary-white max-md:h-96",
 				className,
 			)}
 		>
-			<CardContent className=" w-full h-48 ">
-				{/* <ChartContainer config={chartConfig} className="text-white">
-					<AreaChart
-						className=" h-80! "
-						accessibilityLayer
-						data={chartData}
-						margin={{
-							left: 2,
-							right: 2,
-						}}
-					>
-						<CartesianGrid vertical={false} className="text-white" />
-
-						<ChartTooltip
-							cursor={false}
-							content={
-								<ChartTooltipContent indicator="line" className="text-white" />
-							}
-						/>
-						<Area
-							dataKey="desktop"
-							type="natural"
-							fill="var(--color-desktop)"
-							fillOpacity={0.4}
-							stroke="var(--color-desktop)"
-							className="text-white"
-						/>
-					</AreaChart>
-				</ChartContainer> */}
-			</CardContent>
+			<CardContent className=" w-full min-h-52 lg:h-48 "></CardContent>
 			<CardFooter>
 				<div className="flex w-full items-start gap-2 text-sm">
 					<div className="grid gap-2">

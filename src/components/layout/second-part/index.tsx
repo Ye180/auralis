@@ -1,10 +1,10 @@
 import StarIcon from "@/assets/icons/star.icons";
-import CardFirst from "../ui/second-section/card-first";
+import CardFirst from "../ui/second-section/layout/card-first";
 
 const SecondPart = () => {
 	return (
 		<div className=" justify-start items-center flex flex-col space-y-10 pt-12 ">
-			<div className="flex items-center gap-2 bg-muted w-fit rounded-full px-4">
+			<div className="flex items-center gap-2 bg-muted w-fit rounded-full px-4 py-2">
 				<span>
 					<StarIcon />
 				</span>

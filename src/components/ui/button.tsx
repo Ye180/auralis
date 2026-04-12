@@ -46,12 +46,14 @@ function Button({
 	variant = "default",
 	size = "default",
 	asChild = false,
+	transparent = true,
 	icon,
 	...props
 }: React.ComponentProps<"button"> &
 	VariantProps<typeof buttonVariants> & {
 		asChild?: boolean;
 		icon?: boolean;
+		transparent?: boolean;
 	}) {
 	const Comp = asChild ? Slot.Root : "button";
 
@@ -66,7 +68,14 @@ function Button({
 			{props.children}
 
 			{icon && (
-				<span className="bg-black text-white size-8 flex justify-center items-center rounded-full group-hover:bg-primary-white group-hover:text-black">
+				<span
+					className={cn(
+						"bg-black text-white size-8 flex justify-center items-center rounded-full group-hover:bg-primary-white group-hover:text-black",
+						transparent
+							? "bg-primary-black text-white"
+							: " bg-primary-white text-black",
+					)}
+				>
 					<ArrowRight className="-rotate-45 group-hover:rotate-0 transition-transform duration-200" />
 				</span>
 			)}

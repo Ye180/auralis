@@ -1,7 +1,7 @@
 import ArrowIcons from "@/components/ui/icons/arrow.icons";
-import { cn } from "@/lib/utils";
 import ItemsSecondSection from "@/mockups/second-section";
 import { useEffect, useState } from "react";
+import Card from "../ui/card";
 
 const CardFirst = () => {
 	const active = Math.floor(ItemsSecondSection.length / 2);
@@ -31,9 +31,8 @@ const CardFirst = () => {
 					const isActive = index === activeIndex;
 
 					return (
-						<div
-							key={index}
-							className={cn("absolute transition-all duration-500 ease-in-out")}
+						<Card
+							item={item}
 							style={
 								isDesktop
 									? {
@@ -45,26 +44,7 @@ const CardFirst = () => {
 											opacity: isActive ? 1 : 0,
 										}
 							}
-						>
-							<div
-								className="w-56 h-72 rounded-2xl border-none outline-none overflow-hidden shadow-lg relative"
-								style={{
-									backgroundImage: `url(${item.image})`,
-									backgroundSize: "cover",
-									backgroundPosition: "center",
-								}}
-							>
-								<div className="absolute inset-0 bg-linear-to-t from-white from-17% to-transparent to-60%" />
-								<div className="absolute bottom-4 left-0 px-4 text-black space-y-1">
-									<h3 className="text-xl font-playfair italic font-semibold">
-										{item.title}
-									</h3>
-									<p className="text-[13px] text-black/60">
-										{item.description}
-									</p>
-								</div>
-							</div>
-						</div>
+						/>
 					);
 				})}
 			</div>
@@ -82,7 +62,7 @@ const CardFirst = () => {
 					<ArrowIcons className="-rotate-90 text-white " />
 				</button>
 				<button
-					className="text-black rounded-full p-2 transition-colors bg-black"
+					className="text-black rounded-full p-2 transition-colors bg-black cursor-pointer"
 					onClick={() =>
 						setActiveIndex((prev) => (prev + 1) % ItemsSecondSection.length)
 					}

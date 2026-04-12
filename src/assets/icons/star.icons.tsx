@@ -8,7 +8,7 @@ const StarIcon = () => {
 		>
 			<path
 				d="M 12 2 C 12 8 16 12 22 12 C 16 12 12 16 12 22 C 12 16 8 12 2 12 C 8 12 12 8 12 2 Z"
-				fill="#333333"
+				fill="currentColor"
 			/>
 		</svg>
 	);
