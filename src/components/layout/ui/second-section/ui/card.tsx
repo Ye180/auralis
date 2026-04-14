@@ -25,12 +25,16 @@ const Card = ({ item, style, className, sizeCard }: CardProps) => {
 					"w-56 h-72 rounded-2xl border-none outline-none overflow-hidden shadow-lg relative ",
 					sizeCard,
 				)}
-				style={{
-					backgroundImage: `url(${item.image})`,
-					backgroundSize: "cover",
-					backgroundPosition: "center",
-				}}
 			>
+				<img
+					src={item.image}
+					alt={item.title}
+					className="absolute inset-0 w-full h-full object-cover"
+					loading="lazy"
+					decoding="async"
+					width={400}
+					height={500}
+				/>
 				<div className="absolute inset-0 bg-linear-to-t from-white from-17% to-transparent to-60%" />
 				<div className="absolute bottom-4 left-0 px-4 text-black space-y-1">
 					<h3 className="text-xl font-playfair italic font-semibold">

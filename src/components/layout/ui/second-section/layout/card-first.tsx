@@ -50,7 +50,7 @@ const CardFirst = () => {
 			</div>
 			<div className="flex gap-4 h-fit absolute bottom-12 left-1/2 transform -translate-x-1/2">
 				<button
-					className="text-black rounded-full p-2 transition-colors bg-black cursor-pointer"
+					className="text-black rounded-full p-3 transition-colors bg-black cursor-pointer"
 					onClick={() =>
 						setActiveIndex(
 							(prev) =>
@@ -59,15 +59,15 @@ const CardFirst = () => {
 						)
 					}
 				>
-					<ArrowIcons className="-rotate-90 text-white " />
+					<ArrowIcons className="-rotate-90 text-white size-5" />
 				</button>
 				<button
-					className="text-black rounded-full p-2 transition-colors bg-black cursor-pointer"
+					className="text-black rounded-full p-3 transition-colors bg-black cursor-pointer"
 					onClick={() =>
 						setActiveIndex((prev) => (prev + 1) % ItemsSecondSection.length)
 					}
 				>
-					<ArrowIcons className="rotate-90 text-white" />
+					<ArrowIcons className="rotate-90 text-white size-5" />
 				</button>
 			</div>
 		</div>

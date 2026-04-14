@@ -2,7 +2,7 @@ import { NavItem } from "@/mockups/navbar";
 
 const NavHeader = () => {
 	return (
-		<nav className="glass-card flex gap-6">
+		<nav className="glass-card flex gap-6" aria-label="Main navigation">
 			{NavItem.map((item) => (
 				<a key={item.href} href={item.href}>
 					{item.name}

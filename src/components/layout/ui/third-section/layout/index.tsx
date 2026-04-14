@@ -5,7 +5,7 @@ const LayoutThird = ({ className }: { className?: string }) => {
 	return (
 		<div
 			className={cn(
-				"absolute top-6 md:top-12 left-1/2 transform -translate-x-1/2 z-50 text-center w-full space-y-8 md:space-y-24",
+				"relative z-50 text-center w-full space-y-8 md:space-y-16 py-8 md:py-16 px-4",
 				className,
 			)}
 		>

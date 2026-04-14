@@ -6,7 +6,7 @@ import type { FiveSectionItemProps } from "@/mockups/five-section";
 const Pricing = ({ item }: { item: FiveSectionItemProps }) => {
 	return (
 		<div
-			className={`flex flex-col justify-between gap-4 ${item.transparent ? "bg-[#ffffff1a] backdrop-blur-xs" : "bg-primary-white"} rounded-4xl border ${item.transparent ? "border-primary-white" : "border-primary-white/30"} w-full sm:w-80 p-5 sm:p-6 h-auto sm:h-110`}
+			className={`flex flex-col justify-between gap-4 ${item.transparent ? "bg-[#ffffff1a] backdrop-blur-xs" : "bg-primary-white"} rounded-4xl border ${item.transparent ? "border-primary-white" : "border-primary-white/30"} w-full sm:w-80 p-5 sm:p-6 h-auto sm:min-h-110`}
 		>
 			<div className="bg-gray-500/10 size-fit rounded-3xl px-3 py-2 text-xs text-text backdrop-blur-xs">
 				{" "}

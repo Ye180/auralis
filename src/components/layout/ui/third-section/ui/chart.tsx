@@ -1,26 +1,9 @@
 "use client";
 
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { type ChartConfig } from "@/components/ui/chart";
 import { cn } from "@/lib/utils";
 
 export const description = "A simple area chart";
-
-const chartData = [
-	{ month: "January", desktop: 186 },
-	{ month: "February", desktop: 305 },
-	{ month: "March", desktop: 237 },
-	{ month: "April", desktop: 73 },
-	{ month: "May", desktop: 209 },
-	{ month: "June", desktop: 214 },
-];
-
-const chartConfig = {
-	desktop: {
-		label: "Desktop",
-		color: "#d4ff5f",
-	},
-} satisfies ChartConfig;
 
 export function ChartAreaDefault({ className }: { className?: string }) {
 	return (

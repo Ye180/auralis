@@ -9,15 +9,17 @@ const ClaritySection = () => {
 				<ChartAreaDefault />
 			</div>
 			<div className=" w-full grid grid-rows-2 gap-6 ">
-				<div
-					className="h-full rounded-2xl flex flex-col text-start justify-end p-4 md:p-6 space-y-2 relative overflow-hidden"
-					style={{
-						backgroundImage: `url(${thirdPartImage})`,
-						backgroundSize: "cover",
-						backgroundPosition: "center",
-					}}
-				>
-					<div className="absolute inset-0 bg-black/20 w-full h-full"></div>
+				<div className="h-full rounded-2xl flex flex-col text-start justify-end p-4 md:p-6 space-y-2 relative overflow-hidden">
+					<img
+						src={thirdPartImage}
+						alt="Team collaboration using Auralis data insights"
+						className="absolute inset-0 w-full h-full object-cover"
+						loading="lazy"
+						decoding="async"
+						width={800}
+						height={600}
+					/>
+					<div className="absolute inset-0 bg-black/40 w-full h-full"></div>
 					<h3 className="font-playfair italic text-2xl text-white relative z-10">
 						Designed around people
 					</h3>
@@ -26,7 +28,7 @@ const ClaritySection = () => {
 						need to think clearly and move faster
 					</p>
 				</div>
-				<div className="backdrop-blur-sm bg-[#ffffff1a] rounded-3xl text-start justify-end p-4 md:p-6 space-y-4 md:space-y-6 relative overflow-hidden border border-primary-white/40">
+				<div className="backdrop-blur-md bg-black/30 rounded-3xl text-start justify-end p-4 md:p-6 space-y-4 md:space-y-6 relative overflow-hidden border border-primary-white/40">
 					<div className="space-y-2">
 						<h3 className="font-playfair italic text-2xl text-white relative z-10">
 							Adaptive reasoning

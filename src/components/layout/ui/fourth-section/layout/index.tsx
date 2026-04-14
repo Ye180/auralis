@@ -29,11 +29,11 @@ const LayoutFourth = () => {
 					</p>
 				</div>
 			</div>
-			<div className="flex flex-wrap gap-8 container mx-auto items-center justify-center  ">
+			<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 container mx-auto px-4">
 				{ItemsFouthSection.map((item, index) => (
 					<Card
 						className="static h-full"
-						sizeCard="lg:w-72! xl:w-[20vw]! lg:h-96! xl:h-[25vw]! h-68! w-58!"
+						sizeCard="w-full! h-72 sm:h-80 lg:h-96"
 						item={item}
 						key={index}
 					/>

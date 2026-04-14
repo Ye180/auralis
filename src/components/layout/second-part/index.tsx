@@ -3,7 +3,7 @@ import CardFirst from "../ui/second-section/layout/card-first";
 
 const SecondPart = () => {
 	return (
-		<div className=" justify-start items-center flex flex-col space-y-10 pt-12 ">
+		<section className=" justify-start items-center flex flex-col space-y-10 pt-12 ">
 			<div className="flex items-center gap-2 bg-muted w-fit rounded-full px-4 py-2">
 				<span>
 					<StarIcon />
@@ -22,7 +22,7 @@ const SecondPart = () => {
 			</h2>
 
 			<CardFirst />
-		</div>
+		</section>
 	);
 };
 
