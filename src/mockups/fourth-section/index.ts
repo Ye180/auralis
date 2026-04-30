@@ -5,22 +5,22 @@ import cardImage4 from "@/assets/card-image-4.jpg";
 
 const ItemsFouthSection = [
   {
-        title: "Predict outcomes",
-        description: "Anticipate results and make informed decisions with confidence.",
+        title: "Anticipe les résultats",
+        description: "Dans le calme de la nature, ton esprit s'éclaircit. Anticipe les défis avec confiance et prends des décisions alignées avec tes valeurs profondes.",
         image: cardImage1,
     },  {
-        title: "Explain decisions",
-        description: "Understand the reasoning behind each recommendation with transparent explanations.",
+        title: "Comprends chaque choix",
+        description: "La nature t'enseigne la transparence. Comme les arbres qui révèlent leurs racines, découvre le raisonnement derrière chaque recommandation.",
         image: cardImage2,
     },
     {
-        title: "Expert-guided decisions",
-        description: "Combines intelligent analysis with expert insights for better decision-making, ensuring you make the right choices.",
+        title: "Guidé par l'expertise",
+        description: "Combine l'intelligence analytique avec la sagesse de la nature. Nos insights experts t'accompagnent pour faire les bons choix pour ton bien-être.",
         image: cardImage3,
     },
     {
-        title: "Built for progress over time",
-        description: "Designed to evolve with your business needs, ensuring long-term value and adaptability.",
+        title: "Évolue avec le temps",
+        description: "Comme un arbre qui grandit saison après saison, notre approche s'adapte à tes besoins changeants pour ton épanouissement personnel.",
         image: cardImage4,
     },
     

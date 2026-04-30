@@ -21,20 +21,21 @@ const ClaritySection = () => {
 					/>
 					<div className="absolute inset-0 bg-black/40 w-full h-full"></div>
 					<h3 className="font-playfair italic text-2xl text-white relative z-10">
-						Designed around people
+						Trouve ta paix intérieure.
 					</h3>
 					<p className="text-white relative text-sm z-10">
-						Everything you need to think clearly and move faster Everything you
-						need to think clearly and move faster
+						Une immersion au cœur de la nature, là où le temps ralentit et où
+						l’esprit s’apaise
 					</p>
 				</div>
 				<div className="backdrop-blur-md bg-black/30 rounded-3xl text-start justify-end p-4 md:p-6 space-y-4 md:space-y-6 relative overflow-hidden border border-primary-white/40">
 					<div className="space-y-2">
 						<h3 className="font-playfair italic text-2xl text-white relative z-10">
-							Adaptive reasoning
+							L’équilibre commence ici
 						</h3>
 						<p className="text-white text-sm relative z-10">
-							Ai adjusts reasoninng depth based on context and task complexity
+							Nous créons des expériences qui reconnectent l’humain à la nature,
+							au silence et à lui-même.
 						</p>
 					</div>
 

@@ -12,13 +12,14 @@ const LayoutFifth = ({ className }: { className?: string }) => {
 		>
 			<div className="flex flex-col items-center space-y-3">
 				<h2 className="text-2xl lg:text-4xl font-semibold text-center leading-tight">
-					<span>Pricing that </span>
+					<span>Une expérience qui </span>
 					<span className="text-primary-blue font-playfair italic">
-						scale with you
+						grandit avec toi
 					</span>
 				</h2>
 				<p className="font-semibold text-sm md:text-base">
-					Simple, transparent pricing that grows with your team
+					Deux formules pensées pour t'accompagner dans ta reconnexion avec la
+					nature
 				</p>
 			</div>
 			<div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-6 md:gap-8">

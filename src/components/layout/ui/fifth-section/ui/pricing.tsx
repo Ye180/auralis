@@ -1,6 +1,6 @@
 import StarIcon from "@/assets/icons/star.icons";
 import { Button } from "@/components/ui/button";
-import { cn, formatCurrency } from "@/lib/utils";
+import { cn } from "@/lib/utils";
 import type { FiveSectionItemProps } from "@/mockups/five-section";
 
 const Pricing = ({ item }: { item: FiveSectionItemProps }) => {
@@ -12,9 +12,10 @@ const Pricing = ({ item }: { item: FiveSectionItemProps }) => {
 				{" "}
 				{item.type}
 			</div>
-			<div className="font-semibold font-nunito-sans text-2xl text-start">
-				<span className="">{formatCurrency(item.price)}</span>{" "}
-				<span className="text-sm font-medium text-text ">{item.period}</span>
+			<div className="font-semibold font-nunito-sans text-xl text-start">
+				<span className="text-base font-medium text-text italic text-[">
+					{item.period}
+				</span>
 			</div>
 
 			<div className="h-px bg-border/40" />
@@ -40,7 +41,7 @@ const Pricing = ({ item }: { item: FiveSectionItemProps }) => {
 					!item.transparent && "bg-primary-black text-white",
 				)}
 			>
-				Get Started
+				Commencer
 			</Button>
 		</div>
 	);

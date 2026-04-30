@@ -17,12 +17,14 @@ export function ChartAreaDefault({ className }: { className?: string }) {
 			<CardFooter>
 				<div className="flex w-full items-start gap-2 text-sm">
 					<div className="grid gap-2">
-						<h5 className="flex items-center gap-2 leading-none font-medium font-playfair italic text-primary-white text-xl ">
-							Context-driven intelligence
+						<h5 className="flex items-start gap-2 leading-none font-medium font-playfair italic text-primary-white text-xl text-start ">
+							Anticipe les résultats et prends des décisions éclairées
 						</h5>
 						<p className="gap-2 text-start text-primary-white/70 leading-5">
-							AI- continuously builds understanding over time - learning from
-							patterns, trends, and user interactions.
+							Dans le calme de la nature, ton esprit s'éclaircit. Chaque instant
+							de silence te permet d'anticiper les défis avec confiance et de
+							prendre des décisions alignées avec tes valeurs profondes, loin du
+							bruit du monde.
 						</p>
 					</div>
 				</div>

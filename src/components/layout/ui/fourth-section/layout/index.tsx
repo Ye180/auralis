@@ -11,21 +11,22 @@ const LayoutFourth = () => {
 						<StarIcon />
 					</span>
 					<p className="text-sm font-normal bg-glassmorphic">
-						Intelligence & expertise
+						Sagesse & Intuition
 					</p>
 				</div>
 				<div className="space-y-3">
 					<h2 className="text-2xl lg:text-4xl  font-semibold text-center leading-tight">
-						<span> Designed to support </span>
+						<span>Reconnecte-toi avec </span>
 
 						<span className="text-primary-blue font-playfair  italic">
-							every decision
+							ta nature profonde
 						</span>
 					</h2>
 
 					<p className="text-center text-sm text-muted-foreground">
-						From strategic planning to day-to-day operations, Auralis provides
-						the tools and insights you need to make confident decisions.
+						De la contemplation silencieuse aux moments d'introspection, Auralis
+						t'offre l'espace et la sérénité dont tu as besoin pour retrouver ton
+						équilibre intérieur.
 					</p>
 				</div>
 			</div>

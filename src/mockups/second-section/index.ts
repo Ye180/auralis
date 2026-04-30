@@ -6,27 +6,27 @@ import cardImage5 from "@/assets/card-image-5.jpg";
 
 const ItemsSecondSection = [
   {
-        title: "Predict outcomes",
-        description: "Anticipate results and make informed decisions with confidence.",
+        title: "Reconnecte-toi à la nature",
+        description: "La nature est notre meilleur thérapeute.    ",
         image: cardImage1,
     },  {
-        title: "Reason & explain",
-        description: "Understand the 'why' behind every decision with clear reasoning and explanations.",
+        title: "Trouve ta paix intérieure.",
+        description: "Trouve ton équilibre intérieur grâce à nos espaces de détente et de méditation.",
         image: cardImage2,
     },
     {
-        title: "Gather context",
-        description: "Connect your data, tools, and workflows in one place",
+        title: "Respire profondément.",
+        description: "Respire profondément et laisse-toi guider par nos sentiers paisibles.",
         image: cardImage3,
     },
     {
-        title: "Understand patterns",
-        description: "Get clear insights and explanations for every decision.",
+        title: "Sensibilise-toi aux bienfaits de la nature.",
+        description: "Découvre les bienfaits de la nature sur ta santé mentale et physique.",
         image: cardImage4,
     },
     {
-        title: "Make better decisions",
-        description: "Make informed decisions with confidence and clarity.",
+        title: "Fais le choix conscient.",
+        description: "Fais le choix conscient de te reconnecter à la nature.",
         image: cardImage5,
     },
 ];

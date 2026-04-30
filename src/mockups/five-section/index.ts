@@ -10,29 +10,29 @@ export interface FiveSectionItemProps {
 
 export const ItemsFiveSection: FiveSectionItemProps[] = [
     {
-        type: "Standard",
-        price: 25000,
-        period: "month",
+        type: "Essentiel",
+        price: 0,
+        period: "Découverte",
         transparent: true,
         features: [
-            "AI-powered insights",
-            "Expert-guided decisions",
-            "Built for progress over time",
-            "Basic integrations",
-            "Secure workspace"
+            "Accès aux sentiers forestiers",
+            "Méditations guidées en nature",
+            "Ateliers de reconnexion",
+            "Espaces de contemplation",
+            "Communauté bienveillante"
         ],
     },
     {
-        type: "Pro",
-        price: 50000,
-        period: "month",
+        type: "Immersion",
+        price: 0,
+        period: "Expérience complète",
          transparent: false,
         features: [
-            "AI-powered insights",
-            "Advanced AI analytics",
-            "Customizable dashboards",
-            "Advanced integrations",
-            "Priority support",
+            "Retraites en pleine nature",
+            "Accompagnement personnalisé",
+            "Cabanes en forêt",
+            "Bains de forêt thérapeutiques",
+            "Accès prioritaire aux événements",
         ],
     },
 ];

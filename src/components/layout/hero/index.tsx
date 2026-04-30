@@ -13,26 +13,26 @@ const Hero = () => {
 				height={1080}
 			/>
 			<div className="bg-black w-full h-full absolute left-0 top-0 opacity-40 z-10"></div>
-			<div className="space-y-8 flex flex-col items-center z-30 ">
-				<h1 className="text-white text-center md:text-4xl lg:text-6xl text-2xl ">
+			<div className="space-y-8 flex flex-col items-center z-30 hero-animation">
+				<h1 className="text-white text-center md:text-4xl lg:text-6xl text-2xl  ">
 					<span className="font-nunito-sans drop-shadow-xs tracking-tight ">
-						Understand Where are you
+						Dans le silence de la nature,
 					</span>
 					<br />
 					<span className="font-playfair italic drop-shadow-xs tracking-tight">
-						Analyze, reflect, and move forward
+						les sons révèlent leur histoire.
 					</span>
 				</h1>
 				<div className="text-white text-center text-sm md:text-lg w-full md:w-lg drop-shadow-xs">
-					Auralis is an AI copilot that transforms complex data into clear
-					actionable insights for modern teams.
+					Écoutez, analysez et comprenez le monde qui vous entoure, loin du
+					bruit, proche de l’essentiel.
 				</div>
 				<div className="text-white text-center text-lg">
 					<Button
 						className="bg-white text-black px-6 py-3 text-base md:text-lg"
 						icon
 					>
-						Start your practice
+						Commencer votre pratique
 					</Button>
 				</div>
 			</div>

@@ -11,13 +11,15 @@ const LayoutThird = ({ className }: { className?: string }) => {
 		>
 			<div className="flex flex-col items-center ">
 				<h2 className="text-2xl lg:text-4xl font-semibold text-center leading-tight">
-					<span> Built for clarity at </span>
+					<span> Conçu pour soutenir </span>
 					<span className="text-primary-blue font-playfair  italic">
-						every step
+						chaque décision
 					</span>
 				</h2>
 				<p className="font-semibold">
-					Everything you need to think clearly and move faster
+					De la planification stratégique aux opérations quotidiennes, Auralis
+					te fournit les outils et les insights dont tu as besoin pour prendre
+					des décisions éclairées.
 				</p>
 			</div>
 			<ClaritySection />
